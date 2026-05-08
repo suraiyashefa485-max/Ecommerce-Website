@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- nav-->
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="#">ShopNest</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Deals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav><br><br><br>
+    <!--  -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <span class="badge px-3 py-2 bg-secondary rounded-5 mt-5">Modern Online Store</span>
+                    <h1 class="fw-bold">Discover stylish products for your everyday life.</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quo alias consectetur repudiandae
+                        maxime aliquid quibusdam sit, vitae nemo ipsa?</p>
+                    <button type="button" class="btn btn-dark btn-sm p-3 rounded-5">Small button</button>
+                    <button type="button" class="btn btn-outline-dark btn-sm p-3 rounded-5">Small button</button>
+                </div>
+                <div class="col">
+                    <img src="https://img.freepik.com/free-vector/happy-tiny-man-woman-with-shopping-bags-huge-gift-boxes_778687-1341.jpg?semt=ais_incoming&w=740&q=80"
+                        height="400" alt="">
+                </div>
+            </div>
+        </div>
+    </section><br><br><br>
+
+    <!-- Top Categories -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <center><span class="badge px-3 py-2 bg-secondary rounded-5 mt-5">Top Categories</span>
+                        <h1>Shop by Category</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At temporibus beatae quas veniam
+                            laudantium harum modi voluptates sequi ipsum facere.</p>
+                    </center>
+
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col-lg-3">
+                            <div class="card h-100">
+                                <img src="https://static.vecteezy.com/system/resources/previews/008/384/939/non_2x/happy-shopping-girl-illustration-free-vector.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center fw-bold">Fashion</h5>
+                                    <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Nulla, quod?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card h-100">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-WQu4HSZBT-g8H-EMogwnxmlXFe687-byaw&s"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center fw-bold">Shoes</h5>
+                                    <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Quae, maxime.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card h-100">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGBh-ZgpQR5PYRQJrK6-7ttAG3qywCidihiA&s"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center fw-bold">Accessories</h5>
+                                    <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Cumque, neque?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card h-100">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-VQaptx8ykv_8K_bSj5NUWFQ7t-dkc7cDsw&s"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center fw-bold">Lifestyle</h5>
+                                    <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                        elit. Ex, placeat.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><br><br><br>
+
+    <!--  -->
+    <section>
+        <div class="container bg-light">
+            <div class="row">
+                <div class="col">
+                    <span class="badge px-3 py-2 bg-secondary rounded-5 mt-5">Featured Products</span>
+                    <h1 class="fw-bold">Best Sellers</h1>
+
+
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col-lg-3">
+                            <div class="card h-100">
+                                <img src="https://png.pngtree.com/png-vector/20241205/ourmid/pngtree-colorful-canvas-sneakers-clipart-illustration-png-image_14643558.png"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h6 class="card-title">Urban Running Sneakers</h6>
+                                    <p class="text-warning"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                            class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+                                            <p>$89</p>
+
+                                    <center><button type="button" class="btn btn-dark p-3 rounded-5"
+                                            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                                            Add to Chart
+                                        </button></center>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card h-100">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZh9FqVs3UkEaLPQQ30f2sANA2P6xyhi2X8Q&s"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h6 class="card-title" fw-bold">Minimal Cotton T-Shirt</h6>
+                                    <p class="text-warning"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                            class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+                                            <p>$35</p>
+
+                                    <center><button type="button" class="btn btn-dark p-3 rounded-5"
+                                            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                                            Add to Chart
+                                        </button></center>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card h-100">
+                                <img src="https://img.freepik.com/premium-vector/vector-watch-clock-time-isolated-icon-design-illustration-modern-symbol-timer-smart-back_1013341-10196.jpg?semt=ais_incoming&w=740&q=80"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h6 class="card-title" fw-bold">Classic Modern Watch</h6>
+                                    <p class=" text-warning"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                            class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+                                            <p>$120</p>
+
+                                    <center><button type="button" class="btn btn-dark p-3 rounded-5"
+                                            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                                            Add to Chart
+                                        </button></center>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card h-100">
+                                <img src="https://img.freepik.com/premium-vector/charming-2d-cartoon-shopping-bag-illustration_1149116-36568.jpg?semt=ais_incoming&w=740&q=80"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h6 class="card-title" fw-bold">Everyday Travel Backpack</h6>
+                                    <p class=" text-warning"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                            class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+                                            <p>$75</p>
+                                    <center><button type="button" class="btn btn-dark p-3 rounded-5"
+                                            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                                            Add to Chart
+                                        </button></center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><br><br><br>
+
+    </div>
+    </div>
+    </div>
+    </section>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
